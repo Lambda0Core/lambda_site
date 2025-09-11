@@ -1,17 +1,48 @@
-<!DOCTYPE html>
-<html>
-  <head>
+
+<style>
+
+
+.centered-container {
+    display: table;
+	margin: auto;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+  background-color: #4C5844;
+  font-family: "Tahoma", serif;
+    color: white;
+	}
+	
+
+</style>
+
+
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNDER CONSTRUCTION!</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <body>
-    <h1>Watch your head, this site is under construction!</h1>
+    <title>Lambda Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <p>I'll finish this at some point</a>.</p>
-  </body>
+    <div class="centered-container">
+		<div class="green-box"></div>
+        <h1>Test Box</h1>
+        <!-- Navigation links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Additional content boxes for different pages -->
+        <div class="content-box" id="home">
+            <h2>Server info</h2>
+            <p>Will display server information</p>
+        </div>
+
+</div>
+</body>
 </html>
